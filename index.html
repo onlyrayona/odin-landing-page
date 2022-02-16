@@ -4,65 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Landing Page Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
-        <img src="header.jpg" alt="Header: Cats and Dogs">
-        <a href="kitties">Kitties</a>
-        <a href="doggies">Doggies</a>
-        <a href="penguins">Penguins</a>
+        <div class="logo">Header Logo</div>
+        <div class="right-links">
+            <ul>
+                <li><a href="page-one">header link one</a></li>
+                <li><a href="page-two">header link two</a></li>
+                <li><a href="page-three">header link three</a></li>
+            </ul>
+        </div>
     </div>
     <div class="title">
-        <div class="title-text">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title.  
-                It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>    
-        </div>
+        <div class="title-box">
+            <div class="title-text">This website is awesome</div>
+            <div class="title-secondary-text">This website has some 
+            subtext that goes here under the main title.  
+            It's a smaller font and the color is lower contrast</div>
+            <button>Sign up</button>
+        </div>                
         <div class="title-image">
-            <img src="penguin.jpg" alt="Penguin on snow">
+            <img src="penguin.jpeg" alt="Penguin on snow">
         </div>        
     </div>
     <div class="main">
-        <div class="main-header">
-            <h2>Some random information</h2>
+        <div class="main-header">Some random information.</div>
+        <div class="info-container">
+            <div class="info">
+                <img src="kitty.jpeg" alt="Kitty">
+                <p>This is some subtext under an image</p>
+            </div>
+            <div class="info">
+                <img src="kitty.jpeg" alt="Kitty">
+                <p>This is some subtext under an image</p>
+            </div>
+            <div class="info">
+                <img src="kitty.jpeg" alt="Kitty">
+                <p>This is some subtext under an image</p>
+            </div>
+            <div class="info">
+                <img src="kitty.jpeg" alt="Kitty">
+                <p>This is some subtext under an image</p>
+            </div>
         </div>
-        <div class="info">
-            <img src="kitty.jpeg" alt="Kitty">
-            <p>This is some subtext under an image</p>
-        </div>
-        <div class="info">
-            <img src="kitty.jpeg" alt="Kitty">
-            <p>This is some subtext under an image</p>
-        </div>
-        <div class="info">
-            <img src="kitty.jpeg" alt="Kitty">
-            <p>This is some subtext under an image</p>
-        </div>
-        <div class="info">
-            <img src="kitty.jpeg" alt="Kitty">
-            <p>This is some subtext under an image</p>
-        </div> 
     </div>
-    <div class="quote">
-        <p>This is an inspiring quote or testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually
-            read it.  Who knows? All I know is that it looks nice.
-        </p>
-        <p>-Thor, God of Thunder</p>
+    <div class="quote-container">
+        <div class="quote-box">
+            <div class="quote-text">
+            This is an inspiring quote or testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually
+                read it.  Who knows? All I know is that it looks nice.
+            </div>
+            <div class="quote-attribution">-Thor, God of Thunder</div>
+        </div>    
     </div>
     <div class="action">
         <div class="action-box">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right
-                over there!
-            </p>
+            <div class="action-text">
+                <div class="action-text-one">Call to action! It's time!</div>
+                <div class="action-text-two">Sign up for our product by 
+                    clicking that button right
+                    over there!
+                </div>
+            </div>    
             <button>Sign up</button>
         </div>
     </div>
-    <div class="footer">
-        <p>Copyright The Odin Project 2022</p>
-    </div>
+    <div class="footer">Copyright &copy; The Odin Project 2022</div>
 </body>
 </html>
